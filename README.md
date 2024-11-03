@@ -41,3 +41,5 @@ The objective of this project is to design a memory hierarchy with an integrated
 ## Testing
 The program entry point is `memory_driver.cpp`. 
 Compiled with the command g++ *.cpp -o memory_driver and run with ./memory_driver <inputfile.txt>.
+Print the miss-rate for L1 and L2, and the average access time (AAT) in the terminal. (Miss-rate reported only for LW)
+AAT assumptions: L1 hit time: 1 cycle, Victim cache hit time: 1 cycle, L2 hit time: 8 cycles, Main memory hit time: 100 cycles
