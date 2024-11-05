@@ -10,8 +10,8 @@ The objective of this project is to design a memory hierarchy with an integrated
 | Memory Level   | Details |
 |----------------|---------|
 | **L1 Cache**   | - Direct-mapped cache<br>- 1 block per line<br>- 16 lines/sets<br>- Each block: 4 bytes (int) |
-| **L2 Cache**   | - 8-way set-associative cache<br>- 1 block per line<br>- 16 sets<br>- Each block: 4 bytes (int)<br>- Replacement policy: LRU |
-| **Victim Cache** | - Fully-associative<br>- 1 block per line<br>- 4 entries<br>- Each block: 4 bytes (int)<br>- Replacement policy: LRU |
+| **L2 Cache**   | - 8-way set-associative cache<br>- 8 blocks per line<br>- 2 lines<br>- Each block: 4 bytes (int)<br>- Replacement policy: LRU |
+| **Victim Cache** | - Fully-associative<br>- 4 blocks per line<br>- 1 line <br>- Each block: 4 bytes (int)<br>- Replacement policy: LRU |
 | **Main Memory** | - 4096 lines<br>- Each line: 1 byte |
 
 ### Additional Notes:
